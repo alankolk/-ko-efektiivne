@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left, .right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  background: rgba(225, 255, 225, 0.5);
+  height: 100%;
+}
+
+h2 {
+	color: black;
+	font-family: sans-serif;
+	text-align: center;
+}
+p {
+	color: black;
+	font-size: 25px;
+	font-family: sans-serif;
+	text-align: center;
+}
