@@ -1,0 +1,43 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.background {
+  background-image: url("https://images8.alphacoders.com/550/thumb-1920-550542.jpg");
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+.middle {
+  background: rgba(235, 235, 255, 0.7);
+
+}
+p {
+  color: black;
+  font-size: 20px;
+  font-family: 'helvetica';
+  text-align: left;
+}
+.kasutus {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+.background2 {
+  background-image: url("https://www.sciencemag.org/sites/default/files/styles/article_main_large/public/solar_1280p_0.jpg?itok=GX8WxMOW");
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+#map {
+  height: 400px;
+  width: 100%;
+}

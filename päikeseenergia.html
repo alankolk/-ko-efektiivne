@@ -1,24 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta name="description" content="Webpage description goes here" />
   <meta charset="utf-8">
-  <title>Change_me</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="">
-  <link rel="stylesheet" href="css/style.css">
-  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <title>Päikeseenergia</title>
+  <meta name="Päikeseenergia" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="formaat.css">
+  <link rel="stylesheet" href="päikeseformaat.css">
+  <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCW-_A8S7InuVGB7jsxFBhQggxD9QeHDek&callback=initMap&libraries=&v=weekly"
+      defer
+  ></script>
+  <script>
+      function initMap() {
+        const omniva = { lat: 59.361, lng: 24.864 };
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 4,
+          center: omniva,
+        });
+        const marker = new google.maps.Marker({
+          position: omniva,
+          map: map,
+        });
+      }
+    </script>
 </head>
 
 <body>
   
-<div class="container">
-  
+<div class="background">
+  <div class="column left"></div>
+  <div class="column middle">
+  	<h2>PÄIKESEENERGIA</h2>
+  	<ul>
+		<li><h3>Päikesepaneelid</h3></li>
+	</ul>
+	<p>
+		Esimesed katsed päikesepaneeli tegemiseks tehti juba 1839. aastal, kuid 1905. aastal seletas Albert Einstein fotoefekti olemust ja tänu sellele sai päikeseelemendi arendus suure tõuke. Tänapäeval on päikeseenergia kõige kiiremini kasvav elektriallikas. Aastal 2018 umbes 100 gigawatti lisandus globaalsesse mahtuvusse. Umbes 2% maailma elektrist tuleb päikeseenergiast.
+		<img src="https://news-media.energysage.com/wp-content/uploads/2017/01/1b_HowSolarUsed-06.01.png" alt="kasutused" class="kasutus">
+	</p>
+	<h3>Eesti suurim päikeseenergiapark on Omniva logistikakeskuse katusel ja see toodab 500 kw (Asukoht kaardil)</h3>
+	<div id="map"></div>
+	<ul>
+		<li><h3>Kasutused</h3></li>
+	</ul>
+	<ul>
+		<li>Transpordis: Rongide, busside, lennukite ja autode peale pannakse päikesepaneele. See vähendab CO2 jalajälge ja vähendab kütusekulusid transpordi vahenditel.</li>
+		<li>Tarbeasjad: Paljude igapäeva tehnika jaoks, näiteks telefonid, kõlarid, külmkapid ja taskulambid, on tehtud päikesepaneelidest koosnevad laadijad. Selline lahendus lubab ükskõik kus kohas laadida oma seadmeid ja efektiivselt saada energiat.</li>
+		<li>Tänavavalgustusele lisatakse väikesed päikesepaneelid </li>
+		<li>Koduenergia: Kodudes paigaldatakse päikeseenergia peal toimivaid veesoojendajaid. Paneelid vähendavad kommunaalkulusid ja reostavad loodust vähem, kui energia, mis tuleb fossiilkütustest.</li>
+	</ul>
+  </div>
+  <div class="column right"></div>
 </div>
-
-<script>
-</script>
-
+<div class="background2"></div>
 </body>
 </html>

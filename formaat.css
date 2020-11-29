@@ -16,18 +16,21 @@
   border-color: black;
   border-width: 2px;
   border-style: solid;
-  background: rgba(225, 255, 225, 0.5);
-  height: 100%;
 }
 
 h2 {
 	color: black;
-	font-family: sans-serif;
+	font-family: 'helvetica';
 	text-align: center;
 }
-p {
+h3 {
 	color: black;
-	font-size: 25px;
-	font-family: sans-serif;
-	text-align: center;
+	font-family: 'helvetica';
+	text-align: left;
+}
+li {
+  color: black;
+  font-size: 20px;
+  font-family: 'helvetica';
+  margin-top: 10px;
 }
