@@ -1,0 +1,49 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .background {
+    background-image: url("https://www.dacia.ee/ee/CountriesData/Estonia/images/contact/Recycling_ig_w600_h337.jpg");
+    height: 300%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+  .middle {
+    background: rgba(235, 235, 255, 0.7);
+    height: 100%;
+  }
+  p {
+    color: black;
+    font-size: 20px;
+    font-family: 'helvetica';
+    text-align: left;
+  }
+  .divider {
+      margin: 60px auto;
+      display: block;
+  }
+  hr {
+    height: 50px;
+    color: black;
+    background-color: black;
+  }
+  .skeem {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .kolmerri {
+      height: 500px;
+      width: 500px;
+      float: right;
+  }
+  .märk {
+      height: 150px;
+      width: 300px;
+      float: right;
+  }
+  
