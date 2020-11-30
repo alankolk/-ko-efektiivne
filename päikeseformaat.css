@@ -1,5 +1,5 @@
 body, html {
-  height: 100%;
+  height: 140%;
   margin: 0;
 }
 
@@ -32,7 +32,7 @@ p {
 .background2 {
   background-image: url("https://www.sciencemag.org/sites/default/files/styles/article_main_large/public/solar_1280p_0.jpg?itok=GX8WxMOW");
   height: 100%; 
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: center;
   background-repeat: repeat;
   background-size: cover;
