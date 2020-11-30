@@ -13,7 +13,7 @@ body, html {
   }
   .middle {
     background: rgba(235, 235, 255, 0.7);
-    height: 100%;
+    height: 95%;
   }
   p {
     color: black;
@@ -27,8 +27,8 @@ body, html {
   }
   hr {
     height: 50px;
-    color: black;
-    background-color: black;
+    color: white;
+    background-color: white;
   }
   .skeem {
     display: block;
