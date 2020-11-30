@@ -1,11 +1,11 @@
 body, html {
-  height: 100%;
+  height: 120%;
   margin: 0;
 }
 
 .background {
   background-image: url("http://www.earthfriendlymomma.com/wp-content/uploads/2020/07/Ecofriendly-Food-Packaging-201911-001-720x375.jpg");
-  height: 300%; 
+  height: 400%; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: repeat;
